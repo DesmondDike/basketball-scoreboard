@@ -1,0 +1,53 @@
+html{
+    max-width: 100%;
+}
+h1{
+    border: 1px solid none;
+    border-radius: 15px;
+    background-color: black;
+    padding: 5px 20px;
+}
+@font-face {
+    font-family: technology;
+    src: url("technology.bold.ttf");
+}
+.container{
+    background-image: url(wp2939764.jpg);
+    background-size: cover;
+    color: white;
+    border: 10px solid white;
+    border-radius: 30px;
+    background-color: #1B244A;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 50px;
+    
+
+}
+button{
+    color: white;
+    border: 2px solid white;
+    background-color: #1B244A;
+    padding: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+p{ 
+    font-family: technology;
+    color: red;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15vh;
+}
+
+.home , .away {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footer{
+    font-style: italic;
+}

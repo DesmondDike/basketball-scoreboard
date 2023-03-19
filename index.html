@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basketball Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        height=device-height, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h1>HOME</h1>
+                <p id="home-score">0</p>
+                    <div class="home-btn">
+                        <button id="add1" onclick="homeadd1()">+1</button>
+                        <button id="add2" onclick="homeadd2()">+2</button>
+                        <button id="add3" onclick="homeadd3()">+3</button>
+                    </div>
+            </div>
+
+            <div class="away">
+                <h1>GUESTS</h1>
+                <p id="guest-score">0</p>  
+                <div class="away-btn">
+                    <button id="add1" onclick="awayadd1()">+1</button>
+                    <button id="add2" onclick="awayadd2()">+2</button>
+                    <button id="add3" onclick="awayadd3()">+3</button>
+                </div>
+            </div> 
+            <div id="footer">
+                 <h6>Designed by Desmond Dike</h6> 
+            </div>
+             
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
